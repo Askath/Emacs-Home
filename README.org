@@ -1,0 +1,58 @@
+#+TITLE: GNU Emacs README
+#+AUTHOR: Free Software Foundation, Inc.
+#+DATE: 2001-2024
+#+OPTIONS: toc:2
+
+* Overview
+GNU Emacs, version 31.0.50, is an extensible, customizable, and self-documenting real-time display editor.
+
+* Installation
+Refer to the file ~INSTALL~ for instructions on building and installing GNU Emacs on various systems after unpacking or checking out the Emacs file tree.
+
+* Key Files
+- ~etc/NEWS~: New features and user-visible changes in recent versions.
+- ~etc/PROBLEMS~: Information about common issues encountered when building, installing, and running Emacs.
+- ~CONTRIBUTE~: Guidelines for contributing as a developer.
+- ~BUGS~: Instructions for reporting bugs.
+
+** Bug Reporting
+Send bug reports to [[mailto:bug-gnu-emacs@gnu.org][bug-gnu-emacs@gnu.org]]. Use ~M-x report-emacs-bug~ whenever possible. 
+See the "Bugs" section in the Emacs manual or the ~BUGS~ file for more details.
+
+* Subdirectories
+- ~src~: C code for Emacs, including the Lisp interpreter and redisplay code.
+- ~lisp~: Emacs Lisp code for the editor.
+- ~leim~: Input methods for international characters.
+- ~lib~: Libraries used by Emacs and its utilities.
+- ~lib-src~: Source code for utilities like ~movemail~ and ~etags~.
+- ~lwlib~: Lucid Widget Library for X.
+- ~oldXMenu~: XMenu library source files for non-toolkit builds.
+- ~etc~: Miscellaneous data files like tutorials and toolbar images.
+- ~info~: Info documentation.
+- ~doc/emacs~: Source for the Emacs Manual.
+- ~doc/lispref~: Source for the Emacs Lisp reference manual.
+- ~doc/lispintro~: Source for the Introduction to Programming in Emacs Lisp manual.
+- ~msdos~: MS-DOS configuration files.
+- ~nextstep~: Nextstep port instructions for GNUstep and macOS Cocoa.
+- ~nt~: Files for building Emacs on MS-Windows.
+- ~test~: Tests for Emacs functionality.
+- ~modules~: ~modhelp.py~ helper script.
+- ~admin~: Developer tools and Unicode data files.
+- ~build-aux~: Auxiliary build files.
+- ~m4~: Autoconf macros.
+- ~java~: Java code for the Emacs Android port.
+- ~cross~: Makefiles and tools for building Emacs for Android.
+- ~exec~: Source for helper executables for Android.
+
+* Building Instructions
+- Use the ~configure~ script to adjust Emacs to your system. This script generates the ~Makefile~.
+- ~configure.ac~: Input for generating ~configure~.
+- ~autogen.sh~: Generates ~configure~ and other files. Useful for editing build procedure files like ~configure.ac~.
+- ~Makefile.in~: Template for creating ~Makefile~.
+- ~make-dist~: Script for building a distribution tar file.
+
+** Platform-Specific Notes
+Building on non-POSIX platforms requires additional tools. Refer to platform-specific README files and installation instructions.
+
+* Copyright Notice
+GNU Emacs is licensed under the GNU General Public License version 3 or later. See the license in the file or at [[https://www.gnu.org/licenses/][GNU
