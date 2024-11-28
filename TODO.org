@@ -1,0 +1,25 @@
+* Modules that are to be implemented
+
+Casual
+Org Timeblock
+Iosevka as font
+Olivetti mode
+spacious mode
+expand-region
+Gptel
+hledger mode
+calfw
+calfw-org
+markdown mode
+org-modern
+org-contacts
+org-super-agenda
+toc-org
+org-cliplink
+clojure mode
+cider
+sly
+magit
+
+* Keybindings have to be set for each module
+* way to configure customs
