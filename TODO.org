@@ -3,9 +3,9 @@
 1. Casual
 2. Org Timeblock
 3. Iosevka as font
-4 .Olivetti mode
+4. Olivetti mode
 5. spacious mode
-6 .expand-region
+6. expand-region
 7. gptel
 8. hledger mode
 9. calfw
