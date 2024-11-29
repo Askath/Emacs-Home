@@ -1,0 +1,22 @@
+* Modules that are to be implemented
+
+1. Casual
+3. Iosevka as font
+4. Olivetti mode
+5. spacious mode
+6. expand-region
+7. gptel
+9. calfw
+10. calfw-org
+11. markdown mode
+12. org-modern
+13. org-contacts
+14. org-super-agenda
+15. toc-org
+17. clojure mode
+18. cider
+19. sly
+20. magit
+
+* Keybindings have to be set for each module
+* way to configure customs
