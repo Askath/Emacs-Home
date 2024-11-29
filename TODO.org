@@ -14,7 +14,6 @@
 13. org-contacts
 14. org-super-agenda
 15. toc-org
-16. org-cliplink
 17. clojure mode
 18. cider
 19. sly
