@@ -1,7 +1,6 @@
 * Modules that are to be implemented
 
 1. Casual
-2. Org Timeblock
 3. Iosevka as font
 4. Olivetti mode
 5. spacious mode
