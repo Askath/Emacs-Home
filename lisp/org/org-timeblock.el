@@ -37,7 +37,7 @@
 (require 'svg)
 (require 'seq)
 (require 'compat)
-;; (require 'compat-macs)
+(require 'compat-macs)
 
 ;;;; Faces
 
@@ -361,11 +361,11 @@ are tagged with a tag in car."
 
 ;;;; Functions
 
-;; (compat-version "29.1")
+(compat-version "29.1")
 
-;; (compat-defun org-fold-show-context (&optional key)
-;;   "Make sure point and context are visible."
-;;   (org-show-context key))
+(compat-defun org-fold-show-context (&optional key)
+  "Make sure point and context are visible."
+  (org-show-context key))
 
 (defun org-timeblock-show-context ()
   "Make sure point and context are visible."
